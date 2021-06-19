@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>javascript 1 to 25</title>
+</head>
+<body>
+
+
+
+
+
+
+<h4>chapter6 to 9</h4>
+<p><b>Q no 5</b> <br>Take
+     a) Take three subjects name from user and store them in 3 different variables.
+    b) Total marks for each subject is 100, store it in another variable.
+    c) Take obtained marks for first subject from user and stored it in different variable.
+     d) Take obtained marks for remaining 2 subjects from user and store them in variables.
+    e) Now calculate total marks and percentage and show the result in browser</p>
+
+    <button onclick="table()">Q no 5</button> <br>
+    <table>
+        <tr>
+            <th>Subject</th>
+            <th>Total Marks</th>
+            <th>Obtained Marks</th>
+            <th>Percentage</th>
+        </tr>
+        <tr>
+            <td id="sub1"></td>
+            <td class="tMarks"></td>
+            <td id="obtained1"></td>
+            <td id="p1"></td>
+        </tr>
+        <tr>
+            <td id="sub2"></td>
+            <td class="tMarks"></td>
+            <td id="obtained2"></td>
+            <td id="p2"></td>
+        </tr>
+        <tr>
+            <td id="sub3"></td>
+            <td class="tMarks"></td>
+            <td id="obtained3"></td>
+            <td id="p3"></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td class="oMarks"></td>
+            <td id="totalObtained"></td>
+            <td id="tp"></td>
+        </tr>
+
+    </table>
+
+
+
+
+
+<h4>chapter arrays 14 to 16</h4>
+
+    <p><b>Q no 15</b> <br>Write a program to store phone manufacturers <br> (Apple,
+        Samsung, Motorola, Nokia, Sony & Haier) in an array. <br>
+        Display the following dropdown/select menu in your <br>
+        browser using document.write() method:</p>
+        <form id="myForm">
+            <select id="selectNumber">
+                <option>Phone Manufacturers</option>
+                <script>
+                    var myArray = new Array("Apple", "Samsung", "Matrola", "Nokia","Sony","Haier");
+                    for(i=0; i<myArray.length; i++) {  
+                        document.write('<option value="' + myArray[i] +'">' + myArray[i] + '</option>');
+                    }
+                </script>
+            </select>
+            </form>
+
+
+
+
+    <script src="style.js"></script>
+</body>
+</html>
